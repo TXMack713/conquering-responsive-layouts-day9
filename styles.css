@@ -25,6 +25,9 @@
 body {
   margin: 0;
   padding: 0;
+  word-break: break-all;
+  /* word-wrap: break-word; */
+  overflow: auto;
   hyphens: none;
   -webkit-hyphens: none;
   -moz-hyphens: none;
@@ -77,6 +80,7 @@ h1 {
 
 .hero__text {
   width: 62%;
+  /* border: 2px solid orange; */
 }
 
 .hero__img {
